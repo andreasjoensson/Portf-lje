@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andreas Moreno</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet"> 
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+<link rel="manifest" href="./favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script defer src="app.js"> </script>
+</head>
+<body>
+    <div class="header">
+
+<h1 id="intro-navn">Hej, jeg er <span class="navn-tag">Andreas Moreno Jønsson.</span><br>
+Jeg programmere frontend og backend i JavaScript.
+</h1>
+
+
+<button id="budon" class="btn">Se mine projekter <i class="fas fa-chevron-down"></i></button>
+  
+<div class="nav nav-mobile">
+<a class="nav-hamburger"><i class="fas fa-bars"></i></a>
+<ul class="nav-list fadeIn">
+<li class="nav-link"><a id="projekte">Projekter</a></li>
+<li class="nav-link"><a id="kompetencer">Omkring mig</a></li>
+<li class="nav-link"><a id="kontakt" id="kontakt" >Kontakt</a></li>
+
+</ul>    
+</div>
+    </div>
+    <section class="kompetence-container">
+        <h1 class="section-title">OMKRING MIG</h1>
+<div class="about-me-container">
+<div class="about-me">
+<p>
+    Hej! Mit navn er <span class="highlight">Andreas</span>, jeg nyder at lave ting som lever på internettet. Min interesse indenfor programmering begyndte i 2014, da jeg forsøgte mig med at bygge mine egne hobby hjemmesider.
+</p>
+
+<p>
+    Siden da er der sket meget, jeg studere nu på 3. semester <span class="highlight">Datamatiker</span>, og har fået en masse erfaring med at <span class="highlight">programmere</span> og har også været med til at skabe en successfuld <span class="highlight">eCommerce </span>forretning. 
+</p>
+
+<p>
+ Jeg har en seriøs passion, for at lave komplekse full stack applikationer. 
+</p>
+
+<p> 
+Her er nogle teknologier jeg har arbejdet med for nyligt:
+</p>
+<ul class="skills-list"> 
+<li>JavaScript ES6</li>
+<li>React</li>
+<li>Node JS</li>
+<li>Java</li>
+<li>Spring Boot</li>
+<li>Wordpress</li>
+</ul>
+
+</p>
+
+
+</div>
+<div class="about-me-pic">
+    <div class="image_div">
+        <img src="./241889533_283914959900982_920976.jpg">
+        <div class="img_overlay">
+        </div>
+      </div>
+</div>
+
+</div>
+</section>   
+    </div>
+
+    <section class="projekter">
+        <h1 class="section-title">PROJEKTER</h1> 
+        <div class="container">
+           <div class="card">
+<div class="card__indre">
+<div class="card__ansigt card__ansigt--front">
+
+<div class="card-top card-socialmedie">
+<div class="card-picture">
+</div>
+<img src="./gifs/giphys.gif" class="card-gif socialgif"/>
+<h5 class="card-project">
+    <span class="card-span social-medie-blue">
+SOCIAL MEDIE
+    </span>
+</h5>
+</div>
+
+<ul class="kompetence-liste">
+    <li>React</li>
+    <li>Node JS</li>
+     <li>PostgreSQL</li>
+     <li>GraphQL</li>
+    <li>Puppeteer</li>
+</ul>
+</div>
+<div class="card__ansigt  card__ansigt--back">
+<div class="card__indhold">
+    <div class="card-header">
+    
+    </div>
+    <div class="card__krop"> 
+            <p>Social medie, som har en database over alle skoler i hele Danmark.</p> 
+
+   <div class="knap-container"> 
+    <button id="socialMediaDemo" class="projekt-knap" type="button">SE DEMO</button>
+    <button class="projekt-knap" onclick="location.href='https://danskerbook.herokuapp.com/'" type="button">TJEK SIDE</button> 
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+</div>
+        </div>       
+        <div class="card">
+            <div class="card__indree">
+            <div class="card__ansigt card__ansigt--front">
+                <div class="card-top ">
+                    <div class="card-picture">
+                    </div>
+                    <img src="./gifs/clock-joypixels.gif" class="card-gif"/>
+                    <h5 class="card-project">
+                        <span class="card-span project-silver">
+                    PROJEKT STYRING
+                        </span>
+                    </h5>
+                    </div>
+            <ul class="kompetence-liste">
+                <li>Java</li>
+                <li>Spring Boot</li>
+                 <li>MySQL</li>
+                <li>Bootstrap</li>
+            </ul>
+            </div>
+            <div class="card__ansigt  card__ansigt--back">
+            <div class="card__indhold">
+                <div class="card-header">
+                
+                </div>
+                <div class="card__krop"> 
+                  <p>Applikation til reel software virksomhed, som skal hjælpe med projektstyring.</p> 
+                <div class="knap-container">
+                  <button id="projektStyringDemo" class="studerende projekt-knap"  type="button">SE DEMO</button>
+                <button  class="projekt-knap" onclick="location.href='https://skrive.games/'" type="button">TJEK SIDE</button>   
+            </div>
+      </div>
+            </div>
+            </div>
+            </div>
+                       </div>
+
+
+                       <div class="card">
+                        <div class="card__software">
+                        <div class="card__ansigt card__ansigt--front">
+                            <div class="card-top card-software">
+                                <div class="card-picture">
+                                </div>
+                                <img src="./gifs/afas-software-afas.gif" class="card-gif"/>
+                                <h5 class="card-project">
+                                    <span class="card-span software-dark">
+                                SOFTWARE JOBS
+                                    </span>
+                                </h5>
+                                </div>
+                        <ul class="kompetence-liste">
+                            <li>React</li>
+                            <li>Node JS</li>
+                             <li>Redis</li>
+                            <li>Puppeteer</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        </div>
+                        <div class="card__ansigt  card__ansigt--back">
+                        <div class="card__indhold">
+                            <div class="card-header">
+                            
+                            </div>
+                            <div class="card__krop"> 
+                              <p>Hjemmeside som automatisk indsamler, data fra flere hundrede softwarejobs.</p> 
+                            <div class="knap-container">
+                              <button id="softwareJobsDemo" class="studerende projekt-knap"  type="button">SE DEMO</button>
+                            <button class="projekt-knap" onclick="location.href='https://itarbejde.herokuapp.com/'" type="button">TJEK SIDE</button>   
+                        </div>
+                  </div>
+                        </div>
+                        </div>
+                        </div>
+                                   </div>
+       
+        <div class="card">
+            <div class="card__student">
+            <div class="card__ansigt card__ansigt--front">
+                <div class="card-top card-school">
+                    <div class="card-picture">
+                    </div>
+                    <img src="./gifs/giphy.gif" class="card-gif"/>
+                    <h5 class="card-project">
+                        <span class="card-span ">
+                    STUDENT JOBS
+                        </span>
+                    </h5>
+                    </div>
+            <ul class="kompetence-liste">
+                <li>React</li>
+                <li>Node JS</li>
+                 <li>Redis</li>
+                <li>Puppeteer</li>
+                <li>Bootstrap</li>
+            </ul>
+            </div>
+            <div class="card__ansigt  card__ansigt--back">
+            <div class="card__indhold">
+                <div class="card-header">
+                
+                </div>
+                <div class="card__krop"> 
+                  <p>Hjemmeside som automatisk indsamler, data fra flere hundrede studiejobs.</p> 
+                <div class="knap-container">
+                  <button id="studentJobsDemo" class="studerende projekt-knap"  type="button">SE DEMO</button>
+                <button class="projekt-knap" onclick="location.href='https://studenterjob.herokuapp.com/'" type="button">TJEK SIDE</button>   
+            </div>
+      </div>
+            </div>
+            </div>
+            </div>
+                       </div>
+
+
+
+                       <div class="card">
+                        <div class="card__indreee">
+                        <div class="card__ansigt card__ansigt--front">
+                            <div class="card-top card-multiplayer">
+                                <div class="card-picture">
+                                </div>
+                                <img src="https://media2.giphy.com/media/kdddIq6rZJIEbHVlHk/giphy.gif?cid=ecf05e47ospmwpqtm36jkkp1dflkvem5otqztxx4gnj1k4lo&rid=giphy.gif&ct=s" class="card-gif"/>
+                                <h5 class="card-project">
+                                    <span class="card-span purple-game">
+                                ONLINE <br> SPIL
+                                    </span>
+                                </h5>
+                                </div>
+                        <ul class="kompetence-liste">
+                            <li>React</li>
+                            <li>Node JS</li>
+                             <li>MongoDB</li>
+                            <li>Socketio</li>
+                        </ul>
+                        </div>
+                        <div class="card__ansigt  card__ansigt--back">
+                        <div class="card__indhold">
+                            <div class="card-header">
+                            
+                            </div>
+                            <div class="card__krop"> 
+                              <p>Multiplayerspil som måler skrive hastighed imod andre online spillere.</p> 
+                              <div class="knap-container">
+                              <button id="multiplayerGameDemo" class="projekt-knap" type="button">SE DEMO</button>
+                            <button class="projekt-knap" type="button" onclick="location.href='https://multiplayerspil.herokuapp.com'" >TJEK SIDE</button>       
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                                   </div>
+    
+    
+    </div>
+
+</section>
+           
+    <div class="kontakt"> 
+        <h1 class="section-title">KONTAKT</h1>
+        <h3>Har du et spørgsmål, eller vil du gerne arbejde sammen?</h3>
+
+        <div class="form-container">
+            <form action="https://formspree.io/f/mzbkealk"
+            method="POST">
+             <input name="name" type="text"  id="navn" placeholder="Navn"/>
+             <input name="_replyto" type="text" id="email" placeholder="E-mail"/>
+             <textarea  name="tekst" id="tekst" name="subject" placeholder="Din bedsked" style="height:150px"></textarea>
+             <div class="status"></div>
+             <button type="submit" value="Send" class="submit">SEND</button>
+            </form>
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="kontakt-medie">
+        <a href="https://www.linkedin.com/in/andreas-moreno-jønsson-8244ab96" target="none" class="social-medie"><i class="fab fa-linkedin"></i> </a> 
+    </div>
+<div class="kontakt-medie">
+    <a href="https://github.com/andreasjoensson" target="none" class="social-medie"><i class="fab fa-github-square"></i></a>
+</div>
+
+</div>
+
+<div id="softwareJobsModal" class="modal-bg">
+  <div class="modal">
+     <img src="./gifs/itarbejde.gif" width="100%"/>
+     <span id="softwareJobsClose" class="modal-close"><i class="far fa-times-circle"></i></span> 
+  </div>  
+</div>
+
+<div id="multiplayerGameModal" class="modal-bg">
+    <div class="modal">
+       <img src="./gifs/skrivegames.gif" width="100%"/>
+       <span id="multiplayerGameClose" class="modal-close"><i class="far fa-times-circle"></i></span> 
+    </div>  
+  </div>
+
+  <div id="studentJobsModal" class="modal-bg">
+    <div class="modal">
+       <img src="./gifs/dsa.gif" width="100%"/>
+       <span id="studentJobsClose" class="modal-close"><i class="far fa-times-circle"></i></span> 
+    </div>  
+  </div>
+
+  <div id="socialMediaModal" class="modal-bg">
+    <div class="modal">
+       <img src="./gifs/socialmedie.gif" width="100%"/>
+       <span id="socialMediaClose" class="modal-close"><i class="far fa-times-circle"></i></span> 
+    </div>  
+  </div>
+
+  <div id="projektStyringModal" class="modal-bg">
+    <div class="modal">
+       <img src="./gifs/alphasolutions.gif" width="100%"/>
+       <span id="projektStyringClose" class="modal-close"><i class="far fa-times-circle"></i></span> 
+    </div>  
+  </div>
+
+
+
+</body>
+</html>

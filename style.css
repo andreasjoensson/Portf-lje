@@ -20,8 +20,8 @@ cursor: pointer;
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap:50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .card{
 width: 290px;
@@ -616,6 +616,7 @@ padding: 10px;
 }
 .about-me-pic{
     position: relative;
+    margin-left: 50px;
 }
 
 .image_div{
@@ -875,6 +876,7 @@ margin-bottom: 3rem;
 
 .name-correct{
 -webkit-transition: all 0.7s ease-in-out;
+transition:all 0.7s ease-in-out;
 color: green;
 }
 
@@ -887,6 +889,11 @@ color: green;
 @media only screen and (max-width: 800px) {
      .nav-list{
       display:none;   
+    }
+    .about-me-pic{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
     }
     .card{
     width: 300px;
